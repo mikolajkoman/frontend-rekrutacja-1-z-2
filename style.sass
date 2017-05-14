@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Lato&subset=latin-ext,latin)
+
+$bg-color: #F7F7F7
+$bg-color-2: #FFF
+$text-color:  #000
+$text-color-2:  #fff
+$main-text-color: #BEBEBE
+$text-main-font: 'Lato', sans-serif
+
+
+body
+	background-color: $bg-color
+	color: $text-color
+	font-family: $text-main-font
+	letter-spacing: 1px
+	float: none
+	margin: 0 auto
+	text-align: left
+
+.container
+	
+	max-width: 600px
+	margin: 0 auto
+
+	.convert
+		background-color: $bg-color-2
+		display: block
+		padding: 20px
+		margin: 10px
+		form
+
+			input
+				width: 250px
+				height: 57px
+				border-color: #CFCFCF
+				border-radius: 15px 0  0 15px
+				font-size: 25px
+				padding: 10px
+				letter-spacing: 2px
+				font-weight: bold
+			button
+				width: 250px
+				height: 60px
+				background-color: #59D999
+				border-color: transparent
+				color: $text-color-2
+				font-size: 20px
+				font-weight: bold
+				letter-spacing: 1px
+				text-transform:  uppercase
+				border-radius: 0 15px 15px 0
+				margin-left: -10px
+
+	.result
+		width: 600px
+		.hidden
+			visibility: hidden
+		
+		div
+			display: inline-block
+			background-color: $bg-color-2
+			width: 180px
+			margin: 10px
+			padding: 10px
+			border-radius: 15px
+			overflow: hidden
+			header
+				font-size: 8px
+			p
+				
+				text-align: center
+				padding: 10px
+				font-size: 25px
+				letter-spacing: 2px
+				border-top: 1px solid #000
+				border-bottom: 1px solid #000
+				letter-spacing: 2px
+				font-weight: bold
+				span
+					display: block
+					text-transform: uppercase
+					color: $main-text-color
+					font-size: 16px
+					font-weight: normal
+					letter-spacing: 0px
+
+			footer
+	
+				font-size: 8px
+			&:nth-of-type(2)
+				background-color: #27ae60
+
