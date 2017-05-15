@@ -1,75 +1,140 @@
 @import url(https://fonts.googleapis.com/css?family=Lato&subset=latin-ext,latin);
 body {
-  background-color: #F7F7F7;
-  color: #000;
+  background-color: #323232;
+  color: #323232;
   font-family: "Lato", sans-serif;
-  letter-spacing: 1px;
   float: none;
   margin: 0 auto;
-  text-align: left; }
+  text-align: center; }
 
 .container {
-  max-width: 600px;
-  margin: 0 auto; }
-  .container .convert {
-    background-color: #FFF;
-    display: block;
-    padding: 20px;
-    margin: 10px; }
-    .container .convert form input {
-      width: 250px;
-      height: 57px;
-      border-color: #CFCFCF;
-      border-radius: 15px 0  0 15px;
-      font-size: 25px;
-      padding: 10px;
-      letter-spacing: 2px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff; }
+
+.main {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 30px auto;
+  overflow: hidden;
+  border: 1px solid #e5ceae; }
+
+h1 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #30306d;
+  margin: 20px; }
+
+hgroup {
+  border-top: 1px solid #e5ceae; }
+  hgroup div {
+    line-height: 20px;
+    margin: 10px 0; }
+    hgroup div embed {
+      height: 23px;
+      width: 23px;
+      margin-right: 23px;
+      color: #30306d; }
+    hgroup div strong {
       font-weight: bold; }
-    .container .convert form button {
-      width: 250px;
-      height: 60px;
-      background-color: #59D999;
-      border-color: transparent;
-      color: #fff;
-      font-size: 20px;
-      font-weight: bold;
-      letter-spacing: 1px;
+
+aside {
+  background-color: #e5ceae;
+  padding: 20px; }
+  aside input {
+    margin: 10px;
+    border: 1px solid #b9b9b9;
+    border-bottom: 2px solid #30306d; }
+    aside input:nth-of-type(3) {
       text-transform: uppercase;
-      border-radius: 0 15px 15px 0;
-      margin-left: -10px; }
-  .container .result {
-    width: 600px; }
-    .container .result .hidden {
-      visibility: hidden; }
-    .container .result div {
-      display: inline-block;
-      background-color: #FFF;
-      width: 180px;
+      font-size: 14px;
+      color: #fff;
+      background-color: #30306d;
+      border-color: #30306d;
+      padding: 5px 20px; }
+  aside a {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #30306d; }
+
+.marki .row div {
+  height: 55px; }
+  .marki .row div:first-child {
+    font-weight: lighter;
+    color: #b9b9b9;
+    padding: 15px 0; }
+  .marki .row div:nth-child(2) {
+    background: url(img/brands.jpg) 0/cover no-repeat; }
+
+.gwiazdy {
+  border-top: 1px solid #e5ceae;
+  border-bottom: 1px solid #e5ceae; }
+  .gwiazdy .row .col-md-2 {
+    font-weight: lighter;
+    color: #b9b9b9;
+    padding: 40px 0; }
+  .gwiazdy .row div {
+    height: 100px; }
+    .gwiazdy .row div:nth-child(2) .col-2 {
+      width: 12.5%;
       margin: 10px;
-      padding: 10px;
-      border-radius: 15px;
-      overflow: hidden; }
-      .container .result div header {
-        font-size: 8px; }
-      .container .result div p {
-        text-align: center;
-        padding: 10px;
-        font-size: 25px;
-        letter-spacing: 2px;
-        border-top: 1px solid #000;
-        border-bottom: 1px solid #000;
-        letter-spacing: 2px;
-        font-weight: bold; }
-        .container .result div p span {
-          display: block;
-          text-transform: uppercase;
-          color: #BEBEBE;
-          font-size: 16px;
-          font-weight: normal;
-          letter-spacing: 0px; }
-      .container .result div footer {
-        font-size: 8px; }
-      .container .result div:nth-of-type(2) {
-        background-color: #27ae60; }
+      position: relative;
+      display: inline-block;
+      height: 70px;
+      width: 70px;
+      padding-right: 15px;
+      padding-left: 15px;
+      cursor: pointer; }
+      .gwiazdy .row div:nth-child(2) .col-2:first-of-type {
+        background: url(img/avatars/sablewska.jpg) no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        background-position: center; }
+      .gwiazdy .row div:nth-child(2) .col-2:nth-of-type(2) {
+        background: url(img/avatars/herbus.jpg) no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        background-position: center; }
+      .gwiazdy .row div:nth-child(2) .col-2:nth-of-type(3) {
+        background: url(img/avatars/doda.jpg) no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        background-position: center; }
+      .gwiazdy .row div:nth-child(2) .col-2:nth-of-type(4) {
+        background: url(img/avatars/skarbek.jpg) no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        background-position: center; }
+      .gwiazdy .row div:nth-child(2) .col-2:nth-of-type(5) {
+        background: url(img/avatars/zawadzka.jpg) no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        background-position: center; }
+      .gwiazdy .row div:nth-child(2) .col-2:nth-of-type(6) {
+        background: url(img/avatars/macademian-girl.jpg) no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        background-position: center; }
+      .gwiazdy .row div:nth-child(2) .col-2:nth-of-type(7) {
+        background: url(img/avatars/wojciechowska.jpg) no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        background-position: center; }
+      .gwiazdy .row div:nth-child(2) .col-2:nth-of-type(8) {
+        background: url(img/avatars/mercedes.jpg) no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        background-position: center; }
+
+.onas .row div {
+  height: 80px; }
+  .onas .row div:first-child {
+    font-weight: lighter;
+    color: #b9b9b9;
+    padding: 25px 0; }
+  .onas .row div:nth-child(2) {
+    background: url(img/press.jpg) 0/cover no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
